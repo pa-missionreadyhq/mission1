@@ -1,16 +1,16 @@
-# Mission 0 - Homepage
+# Mission 1 - Car Type AI Prediction Tool
 
-This webpage is designed based off of a simple wireframe template, with the goal to make a rough homepage while ensuring mobile functionality and responsiveness.
+This simple webpage is used as a prototype for an AI prediction tool. It reads any image, and spits out a prediction percentage as well as what type of car (e.g. SUV, sedan, hatchback, truck) it is.
 
 ---
 
-No functionality as of yet. Homepage is created as a prototype based on a given wireframe. Mobile responsiveness does function as expected. This was done without media queries in order to more accurately learn mobile responsiveness and the different types of dynamic sizing options available in CSS.
+The tool is still a <u>prototype</u> and has only had ~20 images to test from. This is the first iteration prediction model. It's approximate accuracy according to a quick test is **~75%.**
 
 ---
 
 ## Usage
 
-To access and preview this webpage, in the terminal of the folder *(mission0)*, type the following:
+To access and preview this webpage, in the terminal of the folder *(mission1/server and mission1/client)*, type the following:
 ```
 npm run dev
 ```
