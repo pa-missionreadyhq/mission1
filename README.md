@@ -14,6 +14,8 @@ To access and preview this webpage, in the terminal of the folder *(mission1/ser
 ```
 npm run dev
 ```
-After that is done, **ctrl + click** on the appropriate link in the console to open the webpage.
+After that is done, **ctrl + click** on the appropriate link in the console of the front end to open the webpage.
 
-To simulate mobile responsiveness, right click anywhere on the page and click inspect to open up the developer tools. Depending on your browser, there is a mobile preview button *(typically top-left or top-right)* that you can click to change the simulated screen size.
+You can then click *Browse...* to select an image file and then click *'Upload Image to test & predict'*.
+
+It will then give you a prediction at what tag closest matches what you gave it and gives an associated confidence percentage.
