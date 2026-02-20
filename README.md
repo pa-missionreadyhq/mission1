@@ -19,3 +19,19 @@ After that is done, **ctrl + click** on the appropriate link in the console of t
 You can then click *Browse...* to select an image file and then click *'Upload Image to test & predict'*.
 
 It will then give you a prediction at what tag closest matches what you gave it and gives an associated confidence percentage.
+
+---
+
+## .env
+
+This application depends on the use of a .env and its contents, in order for the backend to function properly. As is commonplace, .env and its contents are not shared and are included as part of the .gitignore. As such, you will need to fill out the following according to your own endpoints and API keys.
+
+Set up the .env as follows:
+
+```
+AZURE_ENDPOINT= (URL endpoint found in Azure)
+PROJECT_ID= (project ID from Custom Vision project)
+MODEL_NAME= (name given to published model in Custom Vison project)
+PREDICTION_KEY= (API key 1 or 2 from Custom Vison Prediciton resource in Azure)
+```
+---
